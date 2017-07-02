@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 20, 2016, 3:43:56 AM
+    Author     : sotig
+*/
+ 
+input[type="text"], textarea, input[type="password"]{ 
+    padding:3px; 
+    outline: none;
+    border-radius: 0px;
+    border:1px solid #e2e3ea;
+    border-top-color: #abadb3;
+    border-bottom-color: #e3e9ef;
+ 
+
+}
+    input[type="text"]:active, textarea:active,input[type="password"]:active {
+        border:1px solid #c5daed;
+        border-top-color: #5794bf;
+        border-bottom-color: #c7e2f1;
+        outline: none;
+    }
+     input[type="text"]:focus, textarea:focus,input[type="password"]:focus {
+        border:1px solid #c5daed;
+        border-top-color: #5794bf;
+        border-bottom-color: #c7e2f1;
+        outline: none;
+    }
+
+input[type="button"], .button{ 
+    padding: 2px 5px 2px 5px; 
+    color:#000;
+    background: linear-gradient(to bottom, #ffffff 0%,#dfe0df 51%,#c6c6c6 51%,#c8c8c8 100%);
+    border:1px solid #767676; 
+    font-size: 13px;
+    box-shadow:    inset 0px 0px 1px 1px #fff; 
+    outline: none; 
+    border-radius: 3px;
+}
+ 
+input[type="button"]:hover, .button:hover{
+    
+    padding: 2px 5px 2px 5px;
+    background: linear-gradient(to bottom, #fdfdfd 0%,#e3e3e3 51%,#d0d0d0 51%,#a7a7a7 100%);
+    box-shadow: 
+    inset 0 0 2px 1px rgba(5, 146, 255, .4);
+   
+}
+ 
+input[type="button"]:active, .button:active{ padding: 2px 5px 2px 5px;
+    background: linear-gradient(to bottom, #a7a7a7 0%,#d0d0d0 51%,#e3e3e3 51%,#fdfdfd 100%);
+    box-shadow:  
+    inset 0px -2px 1px 0px rgba(214,208,197,0);
+}
+a{
+   outline: none;
+   color:#0066f6;
+   text-decoration: none;
+}
+a:hover{
+    color:#5698f6;
+    text-decoration:underline; 
+}
+.ribbon{
+    padding:6px;
+    color: #fff; 
+    text-shadow: -1px 1px 2px #000;
+    background: linear-gradient(to bottom, #8bbce8 0%,#aacdff 41%);
+
+    min-height:15px;
+    font-size: 12px;
+    text-transform: uppercase; 
+    font-weight: bold;
+} 
+
+ .noselect {
+            -webkit-touch-callout: none;  
+            -webkit-user-select: none; 
+            -khtml-user-select: none;  
+            -moz-user-select: none;  
+            -ms-user-select: none; 
+            user-select: none; 
+        }
+
+        .winel {
+            background-color: #efefef;
+            position: absolute;
+            border: 3px solid #8BBCE8;
+
+            border-radius: 5px 5px 0 0;
+            box-shadow: 0px 0px 0px 1px #000; 
+
+        }
+
+            .winel[focus="true"] { 
+                border: 3px solid #aad0ef; 
+            }
+
+                .winel[focus="true"] .titel {
+                      background: linear-gradient(to bottom, #aad0ef 0%,#c3dcff 41%);
+                }
+
+        .titel { 
+            background: linear-gradient(to bottom, #8bbce8 0%,#aacdff 41%);
+            height: 25px;
+            padding-left: 5px;
+            line-height: 25px;
+            cursor: default; 
+        }
+
+        .titlab {
+            font-family: 'Segoe UI', Calibri;
+            font-size: 10pt;
+            color: #000; 
+        }
+
+        .titleclosebtn {
+            pointer-events: visibleFill; 
+            font-family: 'Segoe UI', Calibri;
+            font-size: 10pt;
+            line-height: 15pt;
+            background:url('/img/ics.png');
+            background-repeat:no-repeat;
+              background-size:512px 512px;
+             background-position:-12px 0px; 
+           
+            color: #fff;
+            width: 31px;
+            height: 17px;
+            text-align: center;
+            margin-right: 1px;
+            margin-top: -24px;
+            float: right;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+
+            .titleclosebtn:hover { 
+                 background-position:-12px -17px;
+               
+            }
+
+            .titleclosebtn:active { 
+                 background-position:-12px -34px;
+            }
+        .contel {
+            overflow:hidden;
+           background-color: #efefef;
+        }

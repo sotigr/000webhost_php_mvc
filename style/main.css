@@ -1,0 +1,116 @@
+ 
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family:  Segoe UI, Arial;
+    font-size: 14px;
+    background-color: #fff;
+}
+#master_header{
+    height:50px;
+    background-color: #f5f6f5;
+    padding:1px;
+    border-bottom: #ddd 1px solid;
+}
+#master_content_container{
+    position:absolute; 
+    width:100%; 
+    bottom:0px; 
+    padding-bottom: 53px;
+    top:53px;
+    overflow:hidden; 
+    
+}
+#master_content_wraper{
+    margin:0 auto;
+    max-width:800px;
+    height:100%;
+    background:#efefef; 
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 
+    inset 0 0 0 1px #000, 
+    inset 0 0 0 2px #8BBCE8,
+    inset 0 0 0 3px #8BBCE8,
+    inset 0px -2px 1px 0px rgba(214,208,197,1);
+    overflow:hidden;
+    padding: 3px;
+    position:relative;
+   
+}
+#master_footer{
+    position:absolute;
+    width:100%;
+    bottom:0;
+    height:30px; 
+    background-color:#f3f1e4;
+}
+.menubtnimage{
+ 
+    cursor: pointer;
+    width:12px;
+    height: 10px;
+ 
+    background-image: url('/img/ics.png');
+    background-position: 0px 0px;
+     margin:0 auto;
+     margin-top:5px;
+}
+.menubtnimage:hover{
+     background-image: url('/img/ics.png');
+     background-position: 0px -10px;
+}
+ 
+#master_menu_host{
+    position: absolute;
+    top:53px; 
+    bottom:0px;
+    width:200px;
+    z-index:2;
+    background:#efefef; 
+    display: none;
+   /* box-shadow: 7px 3px 14px -6px rgba(0,0,0,0.3); */
+    overflow-y:auto;
+}
+#master_menu_item_host
+{ 
+   padding-top:15px;
+}
+#master_menu_item_host a
+{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.master_menu_item{
+    padding:3px;
+    cursor:pointer; 
+    width:inherit;
+    margin-left: 15px;
+    margin-right: 15px;
+       border: 1px solid transparent; 
+     color: #000;
+}
+.master_menu_item:hover{
+     padding:3px;
+    background-color: #c4e1ff;
+    border: 1px solid #3399ff; 
+}
+.line{
+    border-bottom:1px solid #919b9c;
+    min-height: 1px;
+    max-height: 1px; 
+}
+.abox{ 
+    background: linear-gradient(to bottom,  #fcfcfe 0%,#ececec 100%);   
+    border:1px solid #919b9c;
+    margin:5px; padding:5px; 
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+}
+.bbox{ 
+    background: #000;   
+    border:1px solid #919b9c;
+    margin:5px; padding:5px; 
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+} 
